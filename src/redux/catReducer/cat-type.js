@@ -1,0 +1,5 @@
+
+
+export const ADD_CAT_BEGIN = 'ADD_CAT_BEGIN'
+export const ADD_CAT_SUCCESS = 'ADD_CAT_SUCCESS'
+export const ADD_CAT_FAILURE = 'ADD_CAT_FAILURE'

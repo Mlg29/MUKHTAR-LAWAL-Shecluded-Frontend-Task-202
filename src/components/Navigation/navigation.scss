@@ -1,0 +1,17 @@
+
+.logo {
+    font-size: 40px;
+}
+.home-link {
+    color: grey;
+    font-weight: bold;
+    margin-left: 20rem;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    .home-link {
+        margin-left: 1rem;
+    }
+}

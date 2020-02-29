@@ -1,0 +1,52 @@
+
+.lotr-list {
+    
+    width: 60%;
+    padding: 5%;
+    margin: 5px auto;
+    border: 1px solid black;
+
+    .character-name {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .gender {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .birth {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .race {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .spouse {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+}
+
+.lotrs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .lotr-list {
+        width: 100%;
+    }
+    .lotrs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin-bottom: 5%;
+        width: 100%;
+        
+    }
+}
